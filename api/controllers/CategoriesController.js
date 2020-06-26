@@ -9,7 +9,7 @@ module.exports = {
 
   find: function (req, res) {
 
-    sails.models.category.find().populate('products').exec((err, categories) => {
+    sails.models.category.find().exec((err, categories) => {
       if (err) {
         switch (err.name) {
           case 'UsageError':
@@ -27,6 +27,5 @@ module.exports = {
     });
 
   },
-
 };
 

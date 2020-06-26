@@ -6,18 +6,9 @@
  */
 
 module.exports = {
-  tableName: 'categories',
   attributes: {
-    id: {
-      type: 'number',
-      unique: true,
-      required: true,
-    },
     title: 'string',
     code: 'string',
-    sort: 'number',
-    createdAt: false,
-    updatedAt: false,
     products: {
       collection:'product',
       via: 'category'

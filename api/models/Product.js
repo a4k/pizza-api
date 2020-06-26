@@ -6,21 +6,16 @@
  */
 
 module.exports = {
-  tableName: 'products',
   attributes: {
-    id: {
-      type: 'number',
-      unique: true,
-      required: true,
-    },
     title: 'string',
     description: 'string',
-    createdAt: false,
-    updatedAt: false,
     category: {
-      columnName: 'category_id',
       model: 'category',
-      unique: true,
+      // unique: true,
+    },
+    size:{
+      collection: 'size',
+      via: 'product',
     },
   },
 };

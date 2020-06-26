@@ -1,14 +1,16 @@
 # Pizza api
 
 ## Install
-Install database `videoservice.sql`
+* Change value of attribute **migrate** to "alter" `config/models.js`
+* Change connection to database `config/datastores.js`
+* Install node packages `npm install`
+* Run `sails lift`
+* Execute migrations:
+  * /api/v1/migration/category - insert data for categories
+  * /api/v1/migration/product - insert data for product
+  * /api/v1/migration/size - insert data for product sizes
 
-Change connection to database `config/datastores.js`
-
-Install node packages `npm install`
-
-Запустить командой `sails lift`
-
+after this migrations will be inserted data in database
 
 ## Users:
 1. username: test, password: test

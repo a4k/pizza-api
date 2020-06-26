@@ -6,18 +6,10 @@
  */
 
 module.exports = {
-  tableName: 'users',
   attributes: {
-    id: {
-      type: 'number',
-      unique: true,
-      required: true,
-    },
     username: 'string',
     name: 'string',
     password: 'string',
-    createdAt: false,
-    updatedAt: false,
   },
 
 };
