@@ -6,6 +6,7 @@
 * Install node packages `npm install`
 * Run `sails lift`
 * Execute migrations:
+  * /api/v1/migration/user - insert data for users
   * /api/v1/migration/category - insert data for categories
   * /api/v1/migration/product - insert data for product
   * /api/v1/migration/size - insert data for product sizes

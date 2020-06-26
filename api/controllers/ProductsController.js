@@ -18,6 +18,11 @@ module.exports = {
             return res.serverError(err);
         }
       }
+      products.forEach(product => {
+        product.size.forEach(productSize => {
+          productSize.image = '/images/' + productSize.image;
+        });
+      });
 
       if (!products) {
         return res.notFound();
