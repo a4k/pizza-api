@@ -11,10 +11,6 @@ module.exports = {
     name: 'string',
     password: 'string',
     token: 'string',
-    orders: {
-      collection: 'order',
-      via: 'user'
-    },
   },
 
 };

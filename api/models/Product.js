@@ -16,11 +16,6 @@ module.exports = {
       collection: 'size',
       via: 'product',
     },
-    orders: {
-      collection: 'order',
-      via: 'product',
-      through: 'orderproduct'
-    },
   },
 };
 

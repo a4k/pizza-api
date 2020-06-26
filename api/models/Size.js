@@ -17,7 +17,6 @@ module.exports = {
     },
     product: {
       model: 'product',
-      // unique: true,
     },
   }
-}
+};
