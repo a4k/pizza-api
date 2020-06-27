@@ -57,6 +57,8 @@ module.exports.datastores = {
     adapter: 'sails-mysql',
     url: 'mysql://mysql:mysql@localhost:3306/pizza',
 
+    // adapter: 'sails-mysql',
+    // url: 'mysql://sql7351026:qZQIt26C5d@sql7.freemysqlhosting.net:3306/sql7351026',
   },
 
 
