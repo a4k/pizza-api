@@ -71,7 +71,8 @@ module.exports = {
       *                                                                           *
       ****************************************************************************/
       // ssl: true,
-
+      adapter: 'sails-mysql',
+      url: 'mysql://sql7351026:qZQIt26C5d@sql7.freemysqlhosting.net:3306/sql7351026',
     },
 
   },
@@ -90,7 +91,8 @@ module.exports = {
     * https://sailsjs.com/docs/concepts/models-and-orm/model-settings#?migrate *
     *                                                                          *
     ***************************************************************************/
-    migrate: 'safe',
+    // migrate: 'safe',
+    migrate: 'alter',
 
     /***************************************************************************
     *                                                                          *
