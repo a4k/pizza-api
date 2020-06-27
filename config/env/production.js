@@ -150,7 +150,10 @@ module.exports = {
     cors: {
       // allowOrigins: [
       //   'https://example.com',
-      // ]
+      // ],
+      allRoutes: true,
+      allowOrigins: '*',
+      allowRequestHeaders: 'Content-Type, Authorization, X-Requested-With, Cache-Control, Accept, Origin, X-Session-ID,Access-Control-Allow-Origin'
     },
 
   },
@@ -254,6 +257,9 @@ module.exports = {
     //   'https://example.com',
     //   'https://staging.example.com',
     // ],
+    onlyAllowOrigins: [
+      'https://nbpizza-client.herokuapp.com',
+    ],
 
 
     /***************************************************************************
