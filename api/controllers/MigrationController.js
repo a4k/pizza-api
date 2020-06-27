@@ -150,8 +150,8 @@ module.exports = {
       sails.models.size.create({
         title: '10"',
         size: 10,
-        price: 11,
-        price2: 10,
+        price: 9,
+        price2: 9,
         image: 'half_peproni10.jpg',
         product: product.id
       }).exec((err, data) => {
@@ -162,8 +162,8 @@ module.exports = {
       sails.models.size.create({
         title: '12"',
         size: 12,
-        price: 13,
-        price2: 12,
+        price: 11,
+        price2: 11,
         image: 'half_peproni12.jpg',
         product: product.id
       }).exec((err, data) => {
@@ -174,8 +174,8 @@ module.exports = {
       sails.models.size.create({
         title: '14"',
         size: 14,
-        price: 15,
-        price2: 14,
+        price: 12,
+        price2: 12,
         image: 'half_peproni14.jpg',
         product: product.id
       }).exec((err, data) => {
@@ -191,8 +191,8 @@ module.exports = {
       sails.models.size.create({
         title: '10"',
         size: 10,
-        price: 11,
-        price2: 10,
+        price: 8,
+        price2: 8,
         image: 'cheese10.jpg',
         product: product.id
       }).exec((err, data) => {
@@ -203,8 +203,8 @@ module.exports = {
       sails.models.size.create({
         title: '12"',
         size: 12,
-        price: 13,
-        price2: 12,
+        price: 9,
+        price2: 9,
         image: 'cheese12.jpg',
         product: product.id
       }).exec((err, data) => {
@@ -215,8 +215,8 @@ module.exports = {
       sails.models.size.create({
         title: '14"',
         size: 14,
-        price: 15,
-        price2: 14,
+        price: 10,
+        price2: 10,
         image: 'cheese14.jpg',
         product: product.id
       }).exec((err, data) => {
